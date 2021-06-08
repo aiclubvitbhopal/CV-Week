@@ -6,15 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>AI Club|CV Week</title>
     <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
-    <link rel="stylesheet" href="slick/slick.css">
-    <link rel="stylesheet" href="slick/slick-theme.css">
-    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/templatemo-style.css" />
-    <!--
-	The Town
-	https://templatemo.com/tm-525-the-town
-	-->
   </head>
   <body>    
     <!-- Hero section -->
@@ -134,8 +127,6 @@
         </footer>
     </section>
     <script src="js/jquery-1.9.1.min.js"></script>     
-    <script src="slick/slick.min.js"></script>
-    <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="js/jquery.singlePageNav.min.js"></script>     
     <script src="js/bootstrap.min.js"></script> 
     <script>
@@ -238,52 +229,6 @@
             });
           } // End if
         });
-
-        // Pop up
-        $('.tm-gallery').magnificPopup({
-          delegate: 'a',
-          type: 'image',
-          gallery: { enabled: true }
-        });
-
-        // Gallery
-        $('.tm-gallery').slick({
-          dots: true,
-          infinite: false,
-          slidesToShow: 5,
-          slidesToScroll: 2,
-          responsive: [
-          {
-            breakpoint: 1199,
-            settings: {
-              slidesToShow: 4,
-              slidesToScroll: 2
-            }
-          },
-          {
-            breakpoint: 991,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 2
-            }
-          },
-          {
-            breakpoint: 767,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-        ]
-        });
-      });
     </script>
   </body>
 </html>
