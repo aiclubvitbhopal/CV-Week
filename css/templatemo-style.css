@@ -65,8 +65,8 @@ a:focus {
 }
 
 .tm-navbar.scroll {
-  background-color: #110d66;
-  border-bottom: 1px solid #e9ecef;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* border-bottom: 1px solid #e9ecef; */
 }
 
 .navbar-brand {
@@ -196,9 +196,9 @@ a:focus {
 }
 
 .tm-down-arrow {
-  color: black;
+  color: rgb(77, 77, 77);
   cursor: pointer;
-  background: white;
+  /* background: rgb(92, 92, 92); */
   border-radius: 50%;
   padding: 10px 22px 8px;
   transition: all 0.3s ease;
@@ -206,8 +206,8 @@ a:focus {
 
 .tm-down-arrow:hover,
 .tm-down-arrow:focus {
-  color: white;
-  background: #3496d8;
+  color: rgb(255, 255, 255);
+  /* background: #3496d8; */
 }
 
 /* Introduction */
@@ -409,17 +409,17 @@ figure.effect-honey:hover h2 i {
 
 #contact {
   color: white;
-  background-color: #030040;
+  background-color: #000000;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 850px;
+  min-height: 500px;
   position: relative;
-  padding-bottom: 50px;
-  padding-top: 160px;
+  /* padding-bottom: 50px; */
+  padding-top: 40px;
 }
 
 .tm-underline {
-  border-top: 2px solid white;
+  /* border-top: 2px solid white; */
   height: 8px;
   width: 100%;
 }
