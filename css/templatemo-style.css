@@ -165,11 +165,16 @@ a:focus {
 }
 
 .tm-hero-text-container-inner {
-  margin-top: -90px;
+  margin-top: 100px;
 }
 
-.tm-hero-title {
-  font-size: 3.5rem;
+.tm-hero-text-container-inner img {
+  width: 50%;
+}
+
+.tm-hero-subtitle {
+  font-size: 2rem;
+  font-weight: 800;
   text-shadow: 2px 2px 2px #333;
 }
 
@@ -192,7 +197,7 @@ a:focus {
 
 .tm-down-arrow-link {
   display: block;
-  margin-top: 18%;
+  /* margin-top: 25%; */
 }
 
 .tm-down-arrow {
